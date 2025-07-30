@@ -1,6 +1,6 @@
 import React from 'react';
 export const HeroSection = () => {
-  return <section className="relative py-20 bg-green-100 overflow-hidden">
+ <section className="relative min-h-screen py-20 bg-green-100 overflow-hidden">
       {/* Pixel grid background */}
       <div className="absolute inset-0 opacity-10" style={{
       backgroundImage: 'linear-gradient(#000 1px, transparent 1px), linear-gradient(90deg, #000 1px, transparent 1px)',
@@ -14,15 +14,15 @@ export const HeroSection = () => {
         <div className="text-center">
           <div className="inline-block mb-6 pixel-borders bg-green-300 p-2 transform -rotate-2">
             <h1 className="text-3xl md:text-5xl font-extrabold pixel-text text-green-800">
-              Pippy OC
+              PippyOC
             </h1>
           </div>
           <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto pixel-text text-green-800 bg-green-200 inline-block p-4 pixel-borders">
-            Roblox developer & content creator
+            Obby Creator Addict
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href="https://www.youtube.com/@PippyOC" target="_blank" rel="noopener noreferrer" className="bg-red-500 text-white font-bold py-3 px-6 pixel-button pixel-text text-xs">
-              Subscribe on YouTube
+              View my channel
             </a>
             <a href="#stats" className="bg-green-500 text-white font-bold py-3 px-6 pixel-button pixel-text text-xs">
               View Stats
